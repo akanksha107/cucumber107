@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7875648068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parametrizedTest.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "validate sign up for any user",
+        "description": "",
+        "id": "facebook-login2;validate-sign-up-for-any-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32852381639,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate sign up",
+            "match": {
+              "location": "parametrizedTest.signup(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First Name",
+                  "Akanksha"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "Choudhary"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "Mobile No",
+                  "8698814222"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "password",
+                  "akanksha@0428"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130984439,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects radio button",
+            "match": {
+              "location": "parametrizedTest.selectGender()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login2",
+    "description": "As a fb user, I want to login using my username \u0026 password",
+    "id": "facebook-login2",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/radical/basic/cucumberFeatures/parametrized.feature"
+  }
+]
